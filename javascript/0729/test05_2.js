@@ -25,6 +25,7 @@ str += "오늘 분 :"+ year + "분<br/>";
 str += "오늘 초 :"+ minute + "초<br/>";
 str += "오늘 초(밀리초) :"+ today.getMilliseconds() + "밀리초<br/>";
 str += "오늘 초(국제표준시) :"+ today.getTime() + "초<br/>";
+
 //0일,1월,2화,3수,4목,5금,6토,7일
 let strweek=['일','월','화','수','목','금','토','일'];
 let week = today.getDay();
